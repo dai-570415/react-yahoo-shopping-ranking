@@ -1,5 +1,31 @@
 # Yahoo ショッピング　ランキングアプリ
 
+[下準備]
+こちらから「新しいアプリケーションを開発」でAPIキーを取得
+https://e.developer.yahoo.co.jp/dashboard/
+
+
+# [忙しい人向け]データダウンロード & 起動
+
+```bash
+$ git clone https://github.com/dai-570415/react-yahoo-shopping-ranking.git
+
+$ cd react-yahoo-shopping-ranking
+
+$ npm install
+
+$ npm start
+```
+
+```js:actions/Ranking.js
+// 省略
+
+const API_URL = 'http://shopping.yahooapis.jp/ShoppingWebService/V1/json/categoryRanking';
+const APP_ID = 'Your_API'; // 各自のAPIキーを入れる
+
+// 省略
+```
+
 ## 環境構築
 
 ```bash
@@ -648,16 +674,4 @@ Ranking.propTypes = {
 Ranking.defaultProps = {
     categoryId: '1'
 }
-```
-
-# データダウンロード & 起動
-
-```bash
-$ git clone https://github.com/dai-570415/react-yahoo-shopping-ranking.git
-
-$ cd react-yahoo-shopping-ranking
-
-$ npm install
-
-$ npm start
 ```
