@@ -649,3 +649,15 @@ Ranking.defaultProps = {
     categoryId: '1'
 }
 ```
+
+# データダウンロード & 起動
+
+```bash
+$ git clone https://github.com/dai-570415/react-yahoo-shopping-ranking.git
+
+$ cd react-yahoo-shopping-ranking
+
+$ npm install
+
+$ npm start
+```
