@@ -1,7 +1,9 @@
 # Yahoo ショッピング　ランキングアプリ
 
 [下準備]
+
 こちらから「新しいアプリケーションを開発」でAPIキーを取得
+
 https://e.developer.yahoo.co.jp/dashboard/
 
 
@@ -36,12 +38,19 @@ $ cd yahoo-shopping-ranking
 
 ディレクトリ
 src/
+
 |── index.js (エントリーポイント)
+
 |── App.js (ルートコンポーネント)
+
 |── components/
+
 |── containers/
+
 |── actions/
+
 └── reducers/
+
 
 必要なモジュールインストール
 
